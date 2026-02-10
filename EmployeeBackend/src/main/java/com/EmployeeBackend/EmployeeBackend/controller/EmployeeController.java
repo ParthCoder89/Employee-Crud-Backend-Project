@@ -2,7 +2,6 @@ package com.EmployeeBackend.EmployeeBackend.controller;
 
 import com.EmployeeBackend.EmployeeBackend.EmployeeDetails.EmployeeDto;
 import com.EmployeeBackend.EmployeeBackend.Service.EmployeeService;
-import com.EmployeeBackend.EmployeeBackend.repository.EmployeeRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
