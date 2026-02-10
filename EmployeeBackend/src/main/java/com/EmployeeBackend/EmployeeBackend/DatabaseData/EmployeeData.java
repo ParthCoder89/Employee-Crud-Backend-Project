@@ -13,6 +13,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "Employees")
 public class EmployeeData {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -22,4 +23,5 @@ public class EmployeeData {
     private String lastName;
     @Column(name = "Email", nullable = false, unique = true)
     private String email;
+
 }
