@@ -4,6 +4,7 @@ import com.EmployeeBackend.EmployeeBackend.DatabaseData.EmployeeData;
 import com.EmployeeBackend.EmployeeBackend.EmployeeDetails.EmployeeDto;
 
 public class EmployeeMapper {
+
     public static EmployeeDto mapToEmployeeDto(EmployeeData employeeData){
         return new EmployeeDto(
                 employeeData.getId(),
@@ -20,4 +21,5 @@ public class EmployeeMapper {
                 employeeDto.getEmail()
         );
     }
+
 }
